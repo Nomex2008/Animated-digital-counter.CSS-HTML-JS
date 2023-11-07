@@ -20,13 +20,17 @@ body {
 }
 .page__row {
     margin-top: 3vh;
+    padding-bottom: 1px;
+
+    width: 60%;
 
     display: flex;
-    gap: 80px;
+    gap: 30px;
 
     color: aquamarine;
     font-size: 34px;
     font-weight: 800;
 }
 .page__counter {
+    flex:  0 1 33.3333%;
 }
