@@ -11,7 +11,14 @@ body {
     padding-top: 5vh;
 }
 .page__section {
+    margin-top: 1000px;
+    padding-bottom: 200px;
 }
+.page__section:first-child {
+    margin-top: 0px;
+    padding-bottom: 0;
+}
+
 .page__container {
 }
 .page__title {
