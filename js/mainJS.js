@@ -57,7 +57,7 @@ function windowLoad() {
                 //observer.unobserve(targetElement)
             }
         })
-    })
+    },options)
 
     let sections = document.querySelectorAll('.page__section')
     if (sections.length) {
